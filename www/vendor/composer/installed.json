@@ -1,0 +1,205 @@
+[
+    {
+        "name": "htmlburger/carbon-fields",
+        "version": "v3.1.1",
+        "version_normalized": "3.1.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/htmlburger/carbon-fields.git",
+            "reference": "65bd40b6e70ccbaeb9d0989c5589299f0983de04"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/htmlburger/carbon-fields/zipball/65bd40b6e70ccbaeb9d0989c5589299f0983de04",
+            "reference": "65bd40b6e70ccbaeb9d0989c5589299f0983de04",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3"
+        },
+        "require-dev": {
+            "mockery/mockery": "^0.9.7",
+            "phpunit/phpunit": "~4.8"
+        },
+        "time": "2019-04-11T09:46:37+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Carbon_Fields\\": "core/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-2.0-only"
+        ],
+        "authors": [
+            {
+                "name": "htmlBurger",
+                "email": "wordpress@htmlburger.com",
+                "homepage": "https://htmlburger.com/",
+                "role": "Developer"
+            },
+            {
+                "name": "Marin Atanasov",
+                "email": "contact@marinatanasov.com",
+                "homepage": "http://marinatanasov.com/",
+                "role": "Developer"
+            },
+            {
+                "name": "Siyan Panayotov",
+                "homepage": "http://siyanpanayotov.com/",
+                "role": "Developer"
+            },
+            {
+                "name": "Georgi Stoyanov",
+                "email": "stoyanov.gs@gmail.com",
+                "role": "Developer"
+            },
+            {
+                "name": "Stanimir Panchev",
+                "email": "Stan4omir@gmail.com",
+                "role": "Developer"
+            },
+            {
+                "name": "Peter Petrov",
+                "email": "peter.petrov89@gmail.com",
+                "role": "Developer"
+            },
+            {
+                "name": "Plamen Kostadinov",
+                "email": "pkostadinov.2create@gmail.com",
+                "homepage": "http://plasmen.info/",
+                "role": "Developer"
+            },
+            {
+                "name": "Stanimir Stoyanov",
+                "email": "stanimir.k.stoyanov@gmail.com",
+                "role": "Developer"
+            },
+            {
+                "name": "Georgi Popov",
+                "homepage": "http://magadanski.com/",
+                "role": "Developer"
+            },
+            {
+                "name": "German Velchev",
+                "email": "germozy@gmail.com",
+                "role": "Developer"
+            },
+            {
+                "name": "Rashko Petrov",
+                "email": "brutalenemy666@gmail.com",
+                "homepage": "http://errorfactory.com/",
+                "role": "Developer"
+            },
+            {
+                "name": "Miroslav Mitev",
+                "email": "mmitev.2create@gmail.com",
+                "role": "Developer"
+            },
+            {
+                "name": "Kaloyan Ivanov",
+                "email": "kaloyanxivanov@gmail.com",
+                "homepage": "http://vilepixels.com/",
+                "role": "Developer"
+            },
+            {
+                "name": "Atanas Angelov",
+                "email": "atanas.angelov.dev@gmail.com",
+                "role": "Developer"
+            },
+            {
+                "name": "Alexander Panayotov",
+                "email": "alexander.panayotov@gmail.com",
+                "homepage": "http://alexanderpanayotov.com/",
+                "role": "Developer"
+            },
+            {
+                "name": "Viktor Vasilev",
+                "email": "liberalcho@gmail.com",
+                "role": "Developer"
+            },
+            {
+                "name": "Georgi Georgiev",
+                "email": "george.georgiev96@gmail.com",
+                "role": "Developer"
+            },
+            {
+                "name": "Atanas Vasilev",
+                "email": "atanasvasilev91@gmail.com",
+                "role": "Developer"
+            }
+        ],
+        "description": "WordPress developer-friendly custom fields for post types, taxonomy terms, users, comments, widgets, options and more.",
+        "homepage": "http://carbonfields.net/"
+    },
+    {
+        "name": "phpmailer/phpmailer",
+        "version": "v6.0.7",
+        "version_normalized": "6.0.7.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/PHPMailer/PHPMailer.git",
+            "reference": "0c41a36d4508d470e376498c1c0c527aa36a2d59"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/PHPMailer/PHPMailer/zipball/0c41a36d4508d470e376498c1c0c527aa36a2d59",
+            "reference": "0c41a36d4508d470e376498c1c0c527aa36a2d59",
+            "shasum": ""
+        },
+        "require": {
+            "ext-ctype": "*",
+            "ext-filter": "*",
+            "php": ">=5.5.0"
+        },
+        "require-dev": {
+            "doctrine/annotations": "1.2.*",
+            "friendsofphp/php-cs-fixer": "^2.2",
+            "phpdocumentor/phpdocumentor": "2.*",
+            "phpunit/phpunit": "^4.8 || ^5.7",
+            "zendframework/zend-eventmanager": "3.0.*",
+            "zendframework/zend-i18n": "2.7.3",
+            "zendframework/zend-serializer": "2.7.*"
+        },
+        "suggest": {
+            "ext-mbstring": "Needed to send email in multibyte encoding charset",
+            "hayageek/oauth2-yahoo": "Needed for Yahoo XOAUTH2 authentication",
+            "league/oauth2-google": "Needed for Google XOAUTH2 authentication",
+            "psr/log": "For optional PSR-3 debug logging",
+            "stevenmaguire/oauth2-microsoft": "Needed for Microsoft XOAUTH2 authentication",
+            "symfony/polyfill-mbstring": "To support UTF-8 if the Mbstring PHP extension is not enabled (^1.2)"
+        },
+        "time": "2019-02-01T15:04:28+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "PHPMailer\\PHPMailer\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "LGPL-2.1"
+        ],
+        "authors": [
+            {
+                "name": "Jim Jagielski",
+                "email": "jimjag@gmail.com"
+            },
+            {
+                "name": "Marcus Bointon",
+                "email": "phpmailer@synchromedia.co.uk"
+            },
+            {
+                "name": "Andy Prevost",
+                "email": "codeworxtech@users.sourceforge.net"
+            },
+            {
+                "name": "Brent R. Matzelle"
+            }
+        ],
+        "description": "PHPMailer is a full-featured email creation and transfer class for PHP"
+    }
+]
